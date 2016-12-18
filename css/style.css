@@ -2,62 +2,95 @@
 	padding: 0;
 	margin: 0;
 }
-.logotype{
-	margin-top: 50px;;
-	margin-left: 200px;
+body{
+  background-color: #f9f9f9;
 }
+a{
+	text-decoration: none;
+	color: #000000;
+}
+li{
+    list-style-type: none;
+}
+.side{
+  width: 1060px;
+  margin: 0 auto;
+  padding: 50px 45px 60px;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px #dbdbdb;
+  font-family: OpenSansRegular;
+  font-size: 13.33px;
+	}
 .topMenu{
+  line-height: 40px;
 	margin-top: 40px;
-	margin-left: 200px;
 	background-image: url(menu-block.png);
 	height:40px;
 	width: 966px;
-
 }
-a.buttonTop{
-	
-  text-align: center;
-	margin-right: 40px;
+.buttonTop{
+  line-height: 40px;
+	margin-right: 0px;
 	margin-left: 50px;
 	font-weight: 700;
   color: white;
-  text-decoration: none;
+  font-family: OpenSansRegular;
+	font-size: 14,67;
 }
-a.buttonTop:hover {
-		background: yellow;
+.buttonTop:hover {
+	background-image: url(link.png);
 }
-a.buttonTop:active {
-  background-image: url(link.png);
+.leftMenu{
+	background-color: #ffffff;
+	width: 200px;
+	margin-top: 40px;
+	margin-left: 0px;
+  margin-bottom: 60px;
+  float: left;
+  font-family: OpenSansLight;
+	font-size: 13,33;
 }
 .menuLeft{
-	list-style-type: none;
-	margin-left: 50px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding-left: 23px;
+	height: 40px;
+	border: 1px solid #c8c8c8;
+}
+.menuLeft:hover{
+	background-color: #f9f9f9;
+  padding-left: 35px;
+
+}
+.conteiner{
 	margin-top: 40px;
-
+	margin-left: 285px;
+	margin-bottom: 60px;
+	width: 730px;
 }
-#bicycle{
-	margin-left: 450px;
-
+.text{
+	width: 680px;
+	font-family: OpenSansRegular;
 }
-p{
-	margin-left: 512px;
-	width: 512px;
+.bottomMenu{
+	background: #e1e1e1;
+	margin-left: 0px;
+	width: 966px;
+	height:40px;
+	line-height: 40px;
 }
-li a.button7 {
-  display: inline-block;
-  color: black;
-  font-weight: 700;
-  text-decoration: none;
-  user-select: none;
-  padding: .5em 2em;
-  outline: none;
-  border: 2px solid;
-  border-radius: 1px;
-  transition: 0.2s;
+.menuBottom{
+display: inline;
+padding-left: 25px;
+margin-left: 20px;
+font-family: OpenSansRegular;
+font-size: 13,33;
 }
-a.button7:hover {
-	background: yellow;
+.menuBottom:hover{
+	text-decoration: underline;
 }
-a.button7:active {
-	background: grey;
+.regist{
+	display: inline;
+	margin-left: 320px;
 }
