@@ -1,0 +1,63 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.logotype{
+	margin-top: 50px;;
+	margin-left: 200px;
+}
+.topMenu{
+	margin-top: 40px;
+	margin-left: 200px;
+	background-image: url(menu-block.png);
+	height:40px;
+	width: 966px;
+
+}
+a.buttonTop{
+	
+  text-align: center;
+	margin-right: 40px;
+	margin-left: 50px;
+	font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+a.buttonTop:hover {
+		background: yellow;
+}
+a.buttonTop:active {
+  background-image: url(link.png);
+}
+.menuLeft{
+	list-style-type: none;
+	margin-left: 50px;
+	margin-top: 40px;
+
+}
+#bicycle{
+	margin-left: 450px;
+
+}
+p{
+	margin-left: 512px;
+	width: 512px;
+}
+li a.button7 {
+  display: inline-block;
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 2em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+}
+a.button7:hover {
+	background: yellow;
+}
+a.button7:active {
+	background: grey;
+}
